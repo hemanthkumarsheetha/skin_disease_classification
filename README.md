@@ -38,7 +38,7 @@ Training and Evaluation Code:
 Classification Report:
 
 On GPU:
-![Classification_report_gpu](gpu_classification_report)
-![confusion_matrix](confusion_matrix)
+![Classification_report_gpu](gpu_classification_report.png)
+![confusion_matrix](confusion_matrix.png)
 
 On CPU:
