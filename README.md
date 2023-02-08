@@ -62,3 +62,4 @@ On CPU:
 - I also would try to oversample images and try out recent data augmentation methods like CutMix, Mixout etc
 - I would also try to use other evaluation strategies like k-fold cross validation
 - I would also try to fine-tune on pre-trained models trained on medical images of the similar distribution.
+- I would input images to the models, determine and visualize what areas it is primarily paying attention to.
