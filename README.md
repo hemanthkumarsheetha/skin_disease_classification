@@ -1,12 +1,12 @@
 # Skin Disease Classification
 
 
-Hardware:
+**Hardware**:
 
 - All experiments were trained using Google Colab's Tesla K10 GPU.
 - Tensorflow 2.x was utilized for data preprocessing and model training.
 
-Experiments:
+**Experiments**:
 
 - The existing dataset was found to be unbalanced and have limited data.
 - To avoid overfitting, the dataset was fine-tuned on pre-trained models trained on Imagenet for improved knowledge transfer and generalization.
@@ -20,12 +20,12 @@ Experiments:
 - For fine-tuning, I tried the following pre-trained models: MobileNetV3,ResNet50 and EfficientNet.
 - Early Stopping was used to tackle varying validation losses.
 
-Evaluation Metrics:
+**Evaluation Metrics**:
 
 - For evaluation, recall,f1 score, precision and confusion matrix were used. Recall was given higher preference.
 - AUC was also used for some experiments
 
-Results:
+**Results**:
 
 - Among all of the variation of the methods described above, Data Augmentation + Fine-tuned MobileNetV3 + focal_sparse_ce_loss(with Adam optimization) trained with the given unbalanced data(112 images in 3 classes) performed the best in terms of performance and metrics.
 -  Other variations didn't yield as compelling results. Some of them were either overfitting or performed worse or were unstable.
