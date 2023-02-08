@@ -21,6 +21,7 @@
 - Early Stopping was used to tackle varying validation losses.
 - For Optimization, I used Adam with the standard 3e-4 learning rate as default.
 - Please also note that the data is shuffled in the dataset to cover all of train distribution.
+
 **Evaluation Metrics**:
 
 - For evaluation, recall,f1 score, precision and confusion matrix were used. Recall was given higher preference.
@@ -35,6 +36,7 @@
 ![train_val_graph](train_valid_graph.png)
 
 - Based on my observation, I noticed that most of the models overfitted and had a hard time generalizing to the validation set. Some models generalized a bit better than others.\
+
 **Training and Evaluation Code**:
 - Please take a look at my oro_health_training.ipynb file for reviewing my training experiments
 - Please run evaluation by running my evaluation.ipynb which makes use mobilenet.zip file
