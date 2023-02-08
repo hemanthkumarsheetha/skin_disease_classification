@@ -17,7 +17,7 @@
 - To stabilize training and address unbalanced data, the use of learning rate schedulers is recommended. For some experiments, an exponential learning rate decay was employed.
 - Undersampling is another solution for handling class imbalance. In this approach, the number of images for each class was matched to the lowest class count(16 in our case).
 
-- For fine-tuning, I tried the following pre-trained models: MobileNetV3,ResNet50 and EfficientNet.
+- For fine-tuning, I tried the following pre-trained models: MobileNetV2,ResNet50 and EfficientNet.
 - Early Stopping was used to tackle varying validation losses.
 - For Optimization, I used Adam with the standard 3e-4 learning rate as default.
 - Please also note that the data is shuffled in the dataset to cover all of train distribution.
@@ -29,8 +29,8 @@
 
 **Results**:
 
-- Among all of the variation of the methods described above, Data Augmentation + Fine-tuned MobileNetV3 + focal_sparse_ce_loss(with Adam optimization) trained with the given unbalanced data(112 images in 3 classes) performed the best in terms of performance and metrics.
-- Note that here MobileNetV3 is fine-tuned on the last few layers of the pre-trained model, did global average pooling and softmax over classes
+- Among all of the variation of the methods described above, Data Augmentation + Fine-tuned MobileNetV2 + focal_sparse_ce_loss(with Adam optimization) trained with the given unbalanced data(112 images in 3 classes) performed the best in terms of performance and metrics.
+- Note that here MobileNetV2 is fine-tuned on the last few layers of the pre-trained model, did global average pooling and softmax over classes
 -  Other variations didn't yield as compelling results. Some of them were either overfitting or performed worse or were unstable.
 - The following is train-val graph of the best model:
 ![train_val_graph](train_valid_graph.png)
