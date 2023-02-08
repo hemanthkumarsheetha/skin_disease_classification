@@ -33,7 +33,7 @@
 - Note that here MobileNetV2 is fine-tuned on the last few layers of the pre-trained model, did global average pooling and softmax over classes
 -  Other variations didn't yield as compelling results. Some of them were either overfitting or performed worse or were unstable.
 - The following is train-val graph of the best model:
-![train_val_graph](train_valid_graph.png)
+![train_val_graph](train_graph.png)
 
 - Based on my observation, I noticed that most of the models overfitted and had a hard time generalizing to the validation set. Some models generalized a bit better than others.\
 
