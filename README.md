@@ -33,6 +33,7 @@
 <br />
 - The following is train-val graph of the best model:
 ![train_val_graph](train_val_graph.png)
+<br />
 **Training and Evaluation Code**:
 
 - Please take a look at my oro_health_training.ipynb file for reviewing my training experiments
