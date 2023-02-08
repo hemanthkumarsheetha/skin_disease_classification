@@ -20,7 +20,7 @@
 - For fine-tuning, I tried the following pre-trained models: MobileNetV3,ResNet50 and EfficientNet.
 - Early Stopping was used to tackle varying validation losses.
 - For Optimization, I used Adam with the standard 3e-4 learning rate as default.
-
+- Please also note that the data is shuffled in the dataset to cover all of train distribution.
 **Evaluation Metrics**:
 
 - For evaluation, recall,f1 score, precision and confusion matrix were used. Recall was given higher preference.
@@ -52,3 +52,13 @@ On CPU:
 
 ![Classification_report_cpu](cpu_classification_report.png)
 ![confusion_matrix_cpu](cpu_confusion_matrix.png)
+
+
+**Possible Improvements**
+- I would train on 10 different random seeds and report mean and standard deviation for validation set(For reproducibility in training)
+- I would try Meta Learning approaches like MAML etc
+- I would try to make an AUC-ROC curve visualization
+- I would make 3 different classifiers and train them seperately and predicting whether they have a disease or not 
+- I also would try to oversample images and try out recent data augmentation methods like CutMix, Mixout etc
+- I would also try to use other evaluation strategies like k-fold cross validation
+- I would also try to fine-tune on pre-trained models trained on medical images of the similar distribution.
