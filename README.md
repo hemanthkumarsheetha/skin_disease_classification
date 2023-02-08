@@ -42,6 +42,8 @@
 - Please run evaluation by running my evaluation.ipynb which makes use mobilenet.zip file
 
 **Classification Report**:
+
+- The following report results are derived from valid set
 <br />
 On GPU: 
 <br />
