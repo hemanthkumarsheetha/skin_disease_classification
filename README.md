@@ -33,6 +33,7 @@
 - The following is train-val graph of the best model:
 ![train_val_graph](train_valid_graph.png)
 
+- Based on my observation, I noticed that most of the models overfitted and had a hard time generalizing to the validation set. Some models generalized a bit better than others.
 **Training and Evaluation Code**:
 
 - Please take a look at my oro_health_training.ipynb file for reviewing my training experiments
