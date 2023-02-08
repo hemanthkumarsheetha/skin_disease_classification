@@ -48,16 +48,17 @@
 On GPU: 
 <br />
 
-![Classification_report_gpu](gpu_classification_report.png)
+![Classification_report_gpu](gpu_report.png)
 
-![confusion_matrix](confusion_matrix.png)
+![confusion_matrix](gpu_conf_matrix.png)
 
 <br />
 On CPU:
 <br />
 
-![Classification_report_cpu](cpu_classification_report.png)
-![confusion_matrix_cpu](cpu_confusion_matrix.png)
+![Classification_report_cpu](cpu_report.png)
+
+![confusion_matrix_cpu](cpu_conf_matrix.png)
 
 
 **Possible Improvements**
