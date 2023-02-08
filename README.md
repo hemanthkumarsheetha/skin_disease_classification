@@ -19,6 +19,7 @@
 
 - For fine-tuning, I tried the following pre-trained models: MobileNetV3,ResNet50 and EfficientNet.
 - Early Stopping was used to tackle varying validation losses.
+- For Optimization, I used Adam with the standard 3e-4 learning rate as default.
 
 **Evaluation Metrics**:
 
