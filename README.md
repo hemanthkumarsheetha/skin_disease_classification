@@ -32,8 +32,8 @@
 -  Other variations didn't yield as compelling results. Some of them were either overfitting or performed worse or were unstable.
 <br />
 - The following is train-val graph of the best model:
-![train_val_graph](train_val_graph.png)
 <br />
+![train_val_graph](train_val_graph.png)
 
 **Training and Evaluation Code**:
 
