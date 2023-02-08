@@ -38,8 +38,8 @@
 - Based on my observation, I noticed that most of the models overfitted and had a hard time generalizing to the validation set. Some models generalized a bit better than others.\
 
 **Training and Evaluation Code**:
-- Please take a look at my oro_health_training.ipynb file for reviewing my training experiments
-- Please run evaluation by running my evaluation.ipynb which makes use mobilenet.zip file
+- Please take a look at my oro_health_model_training.ipynb file for reviewing my training experiments
+- Please run evaluation by running my oro_health_model_evaluation.ipynb file which makes use mobile_net.zip file
 
 **Classification Report**:
 
