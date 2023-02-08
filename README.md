@@ -43,3 +43,5 @@ On GPU:
 ![confusion_matrix](confusion_matrix.png)
 
 On CPU:
+![Classification_report_gpu](cpu_classification_report.png)
+![confusion_matrix](cpu_confusion_matrix.png)
