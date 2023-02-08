@@ -7,7 +7,7 @@
 - Tensorflow 2.x was utilized for data preprocessing and model training.
 
 **Experiments**:
-
+- The Dataset was split 80-20, where 80% of the data is train set and 20% is valid set.
 - The existing dataset was found to be unbalanced and have limited data.
 - To avoid overfitting, the dataset was fine-tuned on pre-trained models trained on Imagenet for improved knowledge transfer and generalization.
 - To address the issue of unbalanced classes, various methods were tried including data augmentation, focal loss inspired loss function, learning rate schedulers, class weighting and undersampling.
