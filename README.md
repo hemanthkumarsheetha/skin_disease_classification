@@ -30,12 +30,12 @@
 - Among all of the variation of the methods described above, Data Augmentation + Fine-tuned MobileNetV3 + focal_sparse_ce_loss(with Adam optimization) trained with the given unbalanced data(112 images in 3 classes) performed the best in terms of performance and metrics.
 -  Other variations didn't yield as compelling results. Some of them were either overfitting or performed worse or were unstable.
 
-Training and Evaluation Code:
+**Training and Evaluation Code**:
 
 - Please take a look at my oro_health_training.ipynb file for reviewing my training experiments
 - Please run evaluation by running my evaluation.ipynb which makes use mobilenet.zip file
 
-Classification Report:
+**Classification Report**:
 <br />
 On GPU: 
 <br />
