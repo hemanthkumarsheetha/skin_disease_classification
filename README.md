@@ -74,3 +74,4 @@ On CPU:
 - I would also try to fine-tune on pre-trained models trained on medical images of the similar distribution.
 - I would input images to the models, determine and visualize what areas it is primarily paying attention to.
 - I would also do an extensive hyperparameter search and try out different variations
+- I would also try to fine-tune the whole pre-trained model
