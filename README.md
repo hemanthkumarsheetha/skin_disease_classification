@@ -49,7 +49,7 @@
 On GPU: 
 <br />
 
-![Classification_report_gpu](gpu_report.png)
+![Classification_report_gpu](gpu_classification_report.png)
 
 ![confusion_matrix](gpu_conf_matrix.png)
 
