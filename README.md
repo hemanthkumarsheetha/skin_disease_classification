@@ -24,7 +24,7 @@
 
 **Evaluation Metrics**:
 
-- For evaluation, recall,f1 score, precision and confusion matrix were used. Recall was given higher preference as this measurement is considered one of the crucial metrics in medical research as it aims to minimize the number of missed positive cases, resulting in a high recall rate.
+- For evaluation, recall,f1 score,mcc(corr-coefficient),precision,ROC-AUC and confusion matrix were used.Used different metrics to robustly evaluate the model
 - AUC was also used for some experiments
 
 **Results**:
