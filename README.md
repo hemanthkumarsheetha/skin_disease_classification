@@ -74,7 +74,7 @@ On CPU:
 ![Macro F1 CPU](macro_f1_cpu.png)
 
 - The performance metrics of the top model surpassed those of the other model variations.
-- AUC of our best model is approximately 0.896
+
 
 **Possible Improvements**
 - I would train on 10 different random seeds and report mean and standard deviation for validation set(For reproducibility in training)
