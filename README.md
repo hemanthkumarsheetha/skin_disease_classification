@@ -53,6 +53,10 @@ On GPU:
 
 ![confusion_matrix](gpu_conf_matrix.png)
 
+![GPU ROC](gpu_roc.png)
+
+![GPU MCC](gpu_mcc.png)
+
 <br />
 On CPU:
 <br />
@@ -60,6 +64,10 @@ On CPU:
 ![Classification_report_cpu](cpu_report.png)
 
 ![confusion_matrix_cpu](cpu_conf_matrix.png)
+
+![CPU ROC](cpu_roc.png)
+
+![CPU MCC](cpu_mcc.png)
 
 - The performance metrics of the top model surpassed those of the other model variations.
 - AUC of our best model is approximately 0.896
