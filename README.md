@@ -57,6 +57,8 @@ On GPU:
 
 ![GPU MCC](gpu_mcc.png)
 
+![Macro F1 GPU](macro_f1_gpu.png)
+
 <br />
 On CPU:
 <br />
@@ -68,6 +70,8 @@ On CPU:
 ![CPU ROC](cpu_roc.png)
 
 ![CPU MCC](cpu_mcc.png)
+
+![Macro F1 CPU](macro_f1_cpu.png)
 
 - The performance metrics of the top model surpassed those of the other model variations.
 - AUC of our best model is approximately 0.896
