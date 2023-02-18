@@ -39,7 +39,7 @@
 - I also tried training a CNN model from scratch but found that model overfitted a lot as we have less data for training.
 
 **Training and Evaluation Code**:
-- Please take a look at my oro_health_model_training.ipynb file for reviewing my training experiments
+- Please take a look at my oro_health_train.ipynb file for reviewing my training experiments
 - Please run evaluation by running my orohealth_model_evaluation.ipynb file which makes use mobile_net.zip file
 
 **Classification Report**:
