@@ -80,7 +80,9 @@ On CPU:
 - I would train on 10 different random seeds and report mean and standard deviation for validation set(For reproducibility in training)
 - I would try Meta Learning approaches like MAML etc
 - I would try to make an AUC-ROC curve visualization
-- I would make 3 different classifiers and train them seperately and predicting whether they have a disease or not 
+- I would try Ensemble of weak learners
+- I would try Different Weight initializations(Normal,Gaussian etc)
+- I would make 3 different classifiers and train them seperately and predicting whether they have a disease or not
 - I also would try to oversample images and try out recent data augmentation methods like CutMix, Mixout etc
 - I would also try to use other evaluation strategies like k-fold cross validation
 - I would also try to fine-tune on pre-trained models trained on medical images of the similar distribution.
