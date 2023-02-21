@@ -7,6 +7,7 @@
 - Tensorflow 2.x was utilized for data preprocessing and model training.
 
 **Experiments**:
+- Please Note that there are only 46 images in Lichen Planus class but it was previously mentioned that it had 56 images.
 - The Dataset was split 80-20, where 80% of the data is train set and 20% is valid set.
 - The existing dataset was found to be unbalanced and have limited data.
 - To avoid overfitting, the dataset was fine-tuned on pre-trained models trained on Imagenet for improved knowledge transfer and generalization.
