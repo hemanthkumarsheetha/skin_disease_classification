@@ -80,6 +80,7 @@ On CPU:
 **Possible Improvements**
 - I'd try recent self-supervised learning methods
 - I would try Meta Learning approaches like MAML etc
+- I'd try contrastive learning methods like Siamese Networks
 - I would try to make an AUC-ROC curve visualization
 - I would try Ensemble of weak learners
 - I would try Different Weight initializations(Normal,Gaussian etc)
