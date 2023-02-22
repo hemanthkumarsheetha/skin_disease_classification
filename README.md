@@ -78,7 +78,7 @@ On CPU:
 
 
 **Possible Improvements**
-- I would train on 10 different random seeds and report mean and standard deviation for validation set(For reproducibility in training)
+- I'd try recent self-supervised learning methods
 - I would try Meta Learning approaches like MAML etc
 - I would try to make an AUC-ROC curve visualization
 - I would try Ensemble of weak learners
@@ -90,3 +90,4 @@ On CPU:
 - I would input images to the models, determine and visualize what areas it is primarily paying attention to.
 - I would also do an extensive hyperparameter search and try out different variations
 - I would also try to fine-tune the whole pre-trained model
+- I would train on 10 different random seeds and report mean and standard deviation for validation set(For reproducibility in training)
