@@ -30,7 +30,7 @@
 
 **Results**:
 
-- Among all of the variation of the methods described above, Data Augmentation + Fine-tuned MobileNetV2 + focal_sparse_ce_loss(with Adam optimization) trained with the given unbalanced data(112 images in 3 classes) performed the best in terms of performance and metrics.
+- Among all of the variation of the methods described above, Data Augmentation + Fine-tuned MobileNetV2 + focal_sparse_ce_loss(with Adam optimization) trained with the given unbalanced data(102 images in 3 classes) performed the best in terms of performance and metrics.
 - Note that here MobileNetV2 is fine-tuned on the last few layers of the pre-trained model, did global average pooling and softmax over classes
 -  Other variations didn't yield as compelling results. Some of them were either overfitting or performed worse or were unstable.
 - The following is train-val graph of the best model:
